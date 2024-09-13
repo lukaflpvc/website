@@ -1,0 +1,125 @@
+site_name: Luka Filipović
+site_author: Luka Filipović
+site_description: >-
+  Notes about my hobbies and other things I find interesting.
+repo_name: website
+repo_url: https://github.com/Luka Filipović/website/
+site_url: https://lukafilipovic.com/
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2024 Luka Filipović
+theme:
+  name: material
+  language: en
+  custom_dir: overrides
+  favicon: assets/favicon-32x32.png
+  logo: assets/filipovic_crest.svg
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil 
+    view: material/eye
+    theme:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+      - scheme: default 
+        primary: black 
+        accent: red
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+      - scheme: slate
+        primary: black
+        accent: red
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+  font:
+    text: false
+    code: Roboto Mono
+extra_css:
+  - stylesheets/extra.css
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+nav:
+  - Home: 
+    - Introduction: 'index.md'
+    - Projects: "projects.md"
+    - Writing: "writing/index.md"
+  - Projects: "projects.md"
+  - Reading List:
+    - To Read: "reading-list/to-read.md"
+    - Already Read: "reading-list/already-read.md"
+  - Course Notes: "notes.md"
+  - Writing:
+    - "writing/index.md"
+  - Other:
+    - AI: "other/ai.md"
+    - Knowledge Knox: "other/knowledge-knox.md"
+  
+plugins:
+  - blog:
+      enabled: !ENV CI
+      blog_dir: writing
+      blog_toc: true
+      post_dir: writing/posts
+      post_date_format: yyyy/MM/dd
+      post_url_format: "{date}/{slug}"
+      authors_file: "{blog}/.authors.yml"
+  - search
+extra:
+  analytics:
+    provider: google
+    property: G-57JS65Z085
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lukafilipxvic
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/lukafilipxvic
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/lukafilipxvic
+copyright: Copyright &copy; 2024 Luka Filipović
