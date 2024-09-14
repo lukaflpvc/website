@@ -3,7 +3,7 @@ site_author: Luka Filipović
 site_description: >-
   Notes about my hobbies and other things I find interesting.
 repo_name: website
-repo_url: https://github.com/Luka Filipović/website/
+repo_url: https://github.com/lukafilipxvic/website/
 site_url: https://lukafilipovic.com/
 edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024 Luka Filipović
@@ -98,8 +98,8 @@ nav:
   - Writing:
     - "writing/index.md"
   - Other:
-    - AI: "other/ai.md"
-    - Knowledge Knox: "other/knowledge-knox.md"
+    - AI: "ai.md"
+    - Knowledge Knox: "knowledge-knox.md"
   
 plugins:
   - blog:

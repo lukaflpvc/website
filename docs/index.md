@@ -1,6 +1,6 @@
 # 👋 Hey, how's it going...
 
-I'm a recent Finance graduate, technology consultant and an active builder. I am insanely passionate about innovation, particularly within automation and finance.
+I'm a recent Finance graduate, technology consultant and an active builder. I am like innovation, particularly within automation and finance.
 
 
 
