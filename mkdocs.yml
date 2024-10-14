@@ -80,6 +80,7 @@ markdown_extensions:
   - abbr
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - def_list
   - footnotes
@@ -94,11 +95,11 @@ nav:
   - Reading List:
     - To Read: "reading-list/to-read.md"
     - Already Read: "reading-list/already-read.md"
-  - Course Notes: "notes.md"
   - Writing:
     - "writing/index.md"
   - Other:
     - AI: "ai.md"
+    - Course Notes: "notes.md"
     - Knowledge Knox: "knowledge-knox.md"
   
 plugins:

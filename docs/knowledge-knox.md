@@ -54,4 +54,4 @@ A record of articles, people and websites I found interesting or useful.
 * [Free for Developers](https://free-for.dev/#/ "Software with Free Developer Tiers")
 * [Hacker News](https://news.ycombinator.com/ "News for Tech and Startups")
 * [Strategyzer Knowledge Library](https://www.strategyzer.com/library?type=Tools "Tools for Customer Discovery")
-* [UltraSearch](https://ultrasearch.cc "Free Access to Knowledge")
+* [UltraSearch](https://ultrasearch.streamlit.app "Free Access to Knowledge")

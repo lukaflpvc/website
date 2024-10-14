@@ -2,11 +2,11 @@
 
 ## Pyzam
 - **Link:** [Pyzam](https://github.com/lukafilipxvic/Pyzam)
-- **Description:** Shazam for DJs and Mixtapes.
+- **Description:** Expanded Shazam in Python.
 - **Language:** Python
 
 ## UltraSearch
-- **Link:** [UltraSearch](https://ultrasearch.cc)
+- **Link:** [UltraSearch](https://ultrasearch.streamlit.app)
 - **Description:** Library Genesis wrapper for aesthetics and speed.
 - **Language:** Python
 
