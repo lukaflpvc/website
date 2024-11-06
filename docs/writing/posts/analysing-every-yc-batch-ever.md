@@ -3,17 +3,20 @@ title: Analysing Every Y Combinator Batch Ever
 comments: true
 date:
     created: 2024-10-12
+    updated: 2024-11-02
 authors:
     - luka
 ---
 <p align="center">
-<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/yc-analyzed.png?raw=true">
+<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/yc-analyzed.png?raw=true", width="80%">
 </p>
 
 !!! abstract "**TL:DR**"
     Y Combinator (YC) is betting on more founders than ever. New YC startups are showing signs of efficiency, requiring smaller teams to run.
     [Source Code](https://github.com/lukafilipxvic/YC-Analyzed 'YC Analyzed Source Code')
 
+
+## Why Scrape YC?
 Y Combinator's [company directory](https://www.ycombinator.com/companies 'YC Company Directory') is a gold mine of data.
 
 With over 4,933 startups and counting, there is an opportunity to uncover valuable insights and trends. The growing list of companies allows us to extract crucial patterns into technical-founder-driven venture capital (VC). 
@@ -38,18 +41,20 @@ Using Python only, I wanted to extract the information of every startup in YC's 
 ### Python Stack
 The following Python packages made this possible:
 
-* Cerebras/Groq - fast language model inference service (useful for data extraction).
-* Selenium - web agent for extracting raw text body and links.
-* Instructor/Pydantic - structured outputs powered by language models.
+* Language Model - Useful for data extraction. GPT-4o mini works best.
+* Selenium - Web driver for extracting raw text body and links.
+* Instructor/Pydantic - Structured outputs powered by language models.
 
 ### Scraping Tactic
-1. By batch, load all companies by scrolling to the bottom. Extract all Company YC URLs to a CSV file *YC_URLs.csv*. Exclude irrelevant URLs.
+1. For each YC batch, load the whole company directory by scrolling to the page end. Extract all Company YC URLs to a CSV file *YC_URLs.csv*. Exclude irrelevant URLs.
 
-2. For each YC company URL, scrape the page, and parse the data into the defined pydantic model.
+2. For each YC company URL, scrape the page content and links
+
+3. Using Instructor and Pydantic, parse the data into the defined pydantic ```Founders``` and ```YC_Company``` model.
 
 3. Save the scraped data to a CSV file *YC_Directory.csv*.
 
-### The Data
+### The Collected Data
 As a start, I gathered every YC company's high-level information...
 
 * Name

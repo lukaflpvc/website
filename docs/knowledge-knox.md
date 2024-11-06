@@ -46,7 +46,6 @@ A record of articles, people and websites I found interesting or useful.
 * [Ronan Berder](https://ronanberder.com "Tech Entrepreneur and Innovator")
 * [Simon Peyton Jones](https://simon.peytonjones.org "Computer Scientist and Researcher")
 
-
 ## **Tools & Websites**
 * [37Signals](https://37signals.com/ "A Catalog of Ideas")
 * [80,000 Hours](https://80000hours.org "Purpose-Driven Career Advice")

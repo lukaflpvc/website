@@ -6,8 +6,8 @@ I occasionally write about finance, personal work, and applying new technologies
 
 ## My Mission
 
-* I am a passionate advocate for purpose-driven people because it is a quality that sparks meaningful contributions and forsters positive impacts to everyone.
 * I believe that programming will continue change the world. Software will to help and improve our lives at an accelerating rate. It will become easier to experiment, use and learn with code.
+* I am a passionate advocate for purpose-driven people because it is a quality that sparks meaningful contributions and forsters positive impacts to everyone.
 * I am a strong advocate for lifelong learning.
 
 ## Now
