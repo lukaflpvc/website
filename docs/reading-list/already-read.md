@@ -1,6 +1,7 @@
 Books I have read. Access my book notes on my **[Notion page.](https://luka10.notion.site/Reading-List-516b645e84544077858cf5793731ff08)**
 
 <div class="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2">
+  <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-50">    <div class="border-[1px]">      <img src="https://m.media-amazon.com/images/I/71hP6RPS8eL._SL1500_.jpg" alt="Build: An Unorthodox Guide to Making Things Worth Making" class="object-cover hover:drop-shadow-lg" />    </div>  </div>
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-50">    <div class="border-[1px]">      <img src="https://m.media-amazon.com/images/I/71unTUoR1GL._SL1500_.jpg" alt="How To Be a Founder" class="object-cover hover:drop-shadow-lg" />    </div>  </div>
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-50">    <div class="border-[1px]">      <img src="https://m.media-amazon.com/images/I/71M1P287BjL._SL1500_.jpg" alt="Start With Why" class="object-cover hover:drop-shadow-lg" />    </div>  </div>
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-50">    <div class="border-[1px]">      <img src="https://m.media-amazon.com/images/I/61Loe8brBXL._SL1200_.jpg" alt="Getting Things Done: The Art of Stress-Free Productivity" class="object-cover hover:drop-shadow-lg" />    </div>  </div>
