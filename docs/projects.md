@@ -1,5 +1,10 @@
 # Projects
 
+## YC-Analyzed
+- **Link:** [Pyzam](https://github.com/lukafilipxvic/YC-Analyzed)
+- **Description:** YC Directory Scraper and Analyzer
+- **Language:** Python
+
 ## Pyzam
 - **Link:** [Pyzam](https://github.com/lukafilipxvic/Pyzam)
 - **Description:** Expanded Shazam in Python.
@@ -17,5 +22,5 @@
 
 ## Snapchat Filters
 - **Link:** [Snapchat Filters](https://www.snapchat.com/add/lukafilipxvic)
-- **Description:** Amounting over 26m views.
+- **Description:** Amounting over 35m views.
 - **Language:** Javascript

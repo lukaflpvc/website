@@ -87,7 +87,7 @@ def main():
         md_file.write('</div>\n')
 
     with open("docs/reading-list/to-read.md", "w", encoding="utf-8") as md_file:
-        md_file.write(f"I am currently reading *Build* by Tony Fadell.\n\n")
+        md_file.write(f"I am currently reading *Digital Minimalism* by Cal Newport.\n\n")
         md_file.write('<div class="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2">\n')
 
         for book in to_read_books_sorted:

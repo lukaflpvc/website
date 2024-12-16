@@ -1,4 +1,4 @@
-I am currently reading *Build* by Tony Fadell.
+I am currently reading *Digital Minimalism* by Cal Newport.
 
 <div class="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2">
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-50">    <div class="border-[1px]">      <img src="https://m.media-amazon.com/images/I/71Vi0MCoTzL._SL1500_.jpg" alt="How To Live An Extraordinary Life" class="object-cover hover:drop-shadow-lg" />    </div>  </div>

@@ -1,12 +1,17 @@
 ---
-title: On Definite Optimism
+authors:
+    - luka
+categories:
+    - Personal Growth
 comments: true
 date:
     created: 2024-09-25
     updated: 2024-11-02
-authors:
-    - luka
+draft: false
+tags:
 ---
+
+# On Definite Optimism
 
 Human beings have the ability to distinctly remember inflection points in their lives.
 

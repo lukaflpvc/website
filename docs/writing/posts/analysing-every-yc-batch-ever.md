@@ -1,12 +1,22 @@
 ---
-title: Analysing Every Y Combinator Batch Ever
+authors:
+    - luka
+categories:
+    - Data Analysis
 comments: true
 date:
     created: 2024-10-12
     updated: 2024-11-02
-authors:
-    - luka
+description: Explore the data behind Y Combinator's startup directory and the important
+    trends affecting the startup industry.
+draft: false
+tags:
+    - Open Source
+    - Projects
 ---
+
+# Analysing Every Y Combinator Batch Ever
+
 <p align="center">
 <img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/yc-analyzed.png?raw=true", width="80%">
 </p>

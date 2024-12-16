@@ -11,5 +11,5 @@ I occasionally write about finance, personal work, and applying new technologies
 * I am a strong advocate for lifelong learning.
 
 ## Now
-* I am working at MinterEllison Consulting, building AI agents to save time in researching.
+* I am working at MinterEllison Consulting, building AI agents to save time spent on research.
 * I am learning how to build APIs for niche use cases. Watch this space...
