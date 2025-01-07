@@ -1,0 +1,18 @@
+[project]
+name = "website"
+version = "0.1.0"
+description = "My website."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs-material[imaging]>=9.5.49",
+    "mkdocs-minify-plugin>=0.8.0",
+    "mkdocs-plotly-plugin>=0.1.3",
+    "mkdocs-redirects>=1.2.2",
+    "mkdocstrings>=0.27.0",
+    "mkdocstrings-python>=1.13.0",
+    "notion-client>=2.3.0",
+    "notion2md>=2.9.0",
+    "notion2pandas>=1.4.2",
+    "python-dotenv>=1.0.1",
+]

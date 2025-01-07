@@ -22,5 +22,5 @@
 
 ## Snapchat Filters
 - **Link:** [Snapchat Filters](https://www.snapchat.com/add/lukafilipxvic)
-- **Description:** Amounting over 35m views.
+- **Description:** Amounting 60m+ views.
 - **Language:** Javascript

@@ -97,6 +97,7 @@ nav:
     - Already Read: "reading-list/already-read.md"
   - Writing:
     - "writing/index.md"
+    - "writing/book-notes"
   - Other:
     - AI: "ai.md"
     - Course Notes: "notes.md"
@@ -111,6 +112,9 @@ plugins:
       post_date_format: yyyy/MM/dd
       post_url_format: "{date}/{slug}"
       authors_file: "{blog}/.authors.yml"
+  - blog:
+      blog_dir: writing/book-notes
+      post_url_format: "{slug}"
   - search
 extra:
   analytics:

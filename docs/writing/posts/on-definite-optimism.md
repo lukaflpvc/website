@@ -15,7 +15,7 @@ tags:
 
 Human beings have the ability to distinctly remember inflection points in their lives.
 
-I remember a specific moment during my second year of college. I loved numbers, so I opted into studying finance, capital markets.
+I remember a specific moment during my second year of college. I loved numbers, so I opted into studying finance, specifically capital markets.
 
 I sat down with myself to discuss my future: What can I do after I graduate? What value can I provide to society? What can I do to make my family proud?
 
