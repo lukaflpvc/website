@@ -24,8 +24,6 @@ def notion_to_md():
     n2p = Notion2PandasClient(auth=NOTION_TOKEN)
     df = n2p.from_notion_DB_to_dataframe(database_id=DATABASE_ID)
     
-    df = df[df['Type'] == 'Book']
-
     currently_reading = df[df['Status'] == 'Reading']
     finished_books = df[df['Status'] == 'Finished']
     to_read_books = df[(df['Status'] == 'Not started') | (df['Status'] == 'Reading')] 
