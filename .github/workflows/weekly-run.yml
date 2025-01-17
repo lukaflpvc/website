@@ -12,7 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
+      - name: Configure Git Credentials
+      
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
