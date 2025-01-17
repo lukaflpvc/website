@@ -36,12 +36,7 @@ def notion_to_md():
         md_file.write('<div class="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2">\n')
 
         for _, book in finished_books.iterrows():
-            if book["Notes Status"] == "Ready for Publication":
-                MarkdownExporter(block_id=book['PageID'],output_filename=book['Title'], output_path=f'docs/writing/book-notes/posts',download=True, unzipped=True, token=NOTION_TOKEN).export()
-                md_file.write(generate_book_card(book["Image (URL)"], book["Title"], f'../../../writing/book-notes/posts/{book["Title"]}.md'))
-
-            else:
-                md_file.write(generate_book_card(book["Image (URL)"], book["Title"]))
+            md_file.write(generate_book_card(book["Image (URL)"], book["Title"]))
 
         md_file.write('</div>\n')
 
