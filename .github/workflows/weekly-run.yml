@@ -4,21 +4,46 @@ on:
   schedule:
     - cron: "0 0 * * 1"  # Run every Monday at midnight UTC
 
-  workflow_dispatch:
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Prevents default token usage
+          fetch-depth: 0  # Ensures full history for committing
 
+      # Set up Git user
+      - name: Configure Git
+        run: |
+          git config --global user.name "lukafilipxvic"
+          git config --global user.email "lukafilipxvic@users.noreply.github.com"
+
+      # Install uvicorn using the Astral setup-uv action
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
+      # Install project dependencies using uvicorn
       - name: Install the Project
         run: uv sync --all-extras --dev
 
+      # Run the Python script
       - name: Run notion-to-md.py script
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_BOOKS: ${{ secrets.NOTION_DATABASE_BOOKS }}
         run: uv run python mkdocs-python/notion-to-md.py
+
+      # Commit and push changes
+      - name: Commit and Push Changes
+        run: |
+          git add .
+          git commit -m "Automated updates from notion-to-md.py"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
