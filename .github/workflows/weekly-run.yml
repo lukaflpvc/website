@@ -39,8 +39,21 @@ jobs:
           NOTION_DATABASE_BOOKS: ${{ secrets.NOTION_DATABASE_BOOKS }}
         run: uv run python mkdocs-python/notion-to-md.py
 
+      # Check for changes
+      - name: Check for Git Changes
+        id: git_changes
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "No changes detected."
+            echo "has_changes=false" >> $GITHUB_ENV
+          else
+            echo "Changes detected."
+            echo "has_changes=true" >> $GITHUB_ENV
+          fi
+
       # Commit and push changes
       - name: Commit and Push Changes
+        if: env.has_changes == 'true'
         run: |
           git add .
           git commit -m "Automated updates from notion-to-md.py"
