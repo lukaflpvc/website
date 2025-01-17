@@ -3,7 +3,8 @@ from notion2md.exporter.block import MarkdownExporter
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
+if os.path.exists(".env"):
+    load_dotenv()
 
 NOTION_TOKEN = os.environ.get("NOTION_API_KEY")
 DATABASE_ID = os.environ.get("NOTION_DATABASE_BOOKS")
