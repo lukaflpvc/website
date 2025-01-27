@@ -1,4 +1,4 @@
-name: Run notion-to-md.py Script Weekly
+name: notion-to-md
 
 on:
   schedule:
