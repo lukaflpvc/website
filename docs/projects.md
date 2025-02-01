@@ -1,7 +1,7 @@
 # Projects
 
-## YC-Analyzed
-- **Link:** [Pyzam](https://github.com/lukafilipxvic/YC-Analyzed)
+## YC-Vault
+- **Link:** [YC Analyzed](https://github.com/lukafilipxvic/YC-Vault)
 - **Description:** YC Directory Scraper and Analyzer
 - **Language:** Python
 

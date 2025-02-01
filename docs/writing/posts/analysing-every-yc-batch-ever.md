@@ -19,12 +19,12 @@ tags:
 # Analysing Every Y Combinator Batch Ever
 
 <p align="center">
-<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/yc-analyzed.png?raw=true", width="80%">
+<img src="https://github.com/lukafilipxvic/YC-Vault/blob/main/images/YC-Vault.png?raw=true", width="80%">
 </p>
 
 !!! abstract "**TL:DR**"
     Y Combinator (YC) is betting on more founders than ever. New YC startups are showing signs of efficiency, requiring smaller teams to run.
-    [Source Code](https://github.com/lukafilipxvic/YC-Analyzed 'YC Analyzed Source Code')
+    [Source Code](https://github.com/lukafilipxvic/YC-Vault 'YC Analyzed Source Code')
 
 
 ## Why Scrape YC?
@@ -91,7 +91,7 @@ The dataset contains [4,933 companies](#the-results 'as of October 12 2024') bro
 
 ### YC Batch Size Trend
 <p align="center">
-<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/1%20batch-size-over-time.png?raw=true">
+<img src="https://github.com/lukafilipxvic/YC-Vault/blob/main/images/1%20batch-size-over-time.png?raw=true">
 </p>
 The increasing batch size shows that YC is succeeding in achieving its mission: helping startups grow.
 
@@ -100,7 +100,7 @@ But YC then limited batch sizes to around 250 companies. This could be the optim
 
 ### Survival Rate by Batch
 <p align="center">
-<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/2%20survival-rate-over-time.png?raw=true">
+<img src="https://github.com/lukafilipxvic/YC-Vault/blob/main/images/2%20survival-rate-over-time.png?raw=true">
 </p>
 The survival rate over time shows the natural attrition in the startup ecosystem, where only the most viable companies persist over time.
 
@@ -108,13 +108,13 @@ This can be called the *Law of Company Progression.*
 
 ### Total Team Size by Batch
 <p align="center">
-<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/3%20total-team-size-by-batch.png?raw=true">
+<img src="https://github.com/lukafilipxvic/YC-Vault/blob/main/images/3%20total-team-size-by-batch.png?raw=true">
 </p>
 Despite YC funding more startups than ever, total batch team size has plateaued, indicating a trend towards leaner, more efficient technical-driven startups. This is obvious from Batch S22. Future datasets should monitor this trend closely.
 
 ### Team Size Percentage by Status
 <p align="center">
-<img src="https://github.com/lukafilipxvic/YC-Analyzed/blob/main/images/4%20team-size-%25-by-status.png?raw=true">
+<img src="https://github.com/lukafilipxvic/YC-Vault/blob/main/images/4%20team-size-%25-by-status.png?raw=true">
 </p>
 Publicly listed YC companies take the majority of team size by batch.
 Inactive startups tend to die small. This could suggest that startups that stay small, die small. 
@@ -122,4 +122,4 @@ Inactive startups tend to die small. This could suggest that startups that stay 
 ## Future Work
 I believe this data is only scraping the surface of YC's company directory. Looking at this data over time will allow us to view the progression of batches naturally.
 
-The project is [open-source](https://github.com/lukafilipxvic/YC-Analyzed 'YC Analyzed Source Code'), so please feel free to make changes to the directory.
+The project is [open-source](https://github.com/lukafilipxvic/YC-Vault 'YC Analyzed Source Code'), so please feel free to make changes to the directory.
