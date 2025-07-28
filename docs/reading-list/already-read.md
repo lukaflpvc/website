@@ -3,6 +3,7 @@
 Access my book notes on my **[Notion page](https://luka10.notion.site/Reading-List-516b645e84544077858cf5793731ff08)**.
 
 <div class="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2">
+  <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-45">    <div class="border-[1px]"><a href="" class="hover:underline">      <img src="https://images-eu.ssl-images-amazon.com/images/I/81VvqDdHEFL._AC_UL600_SR600,600_.jpg" alt="Steal Like An Artist" class="object-cover hover:drop-shadow-lg" />      </a>    </div>  </div>
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-45">    <div class="border-[1px]"><a href="" class="hover:underline">      <img src="https://m.media-amazon.com/images/I/61rAlh3trlL._AC_SL1500_.jpg" alt="A Technique for Producing Ideas" class="object-cover hover:drop-shadow-lg" />      </a>    </div>  </div>
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-45">    <div class="border-[1px]"><a href="" class="hover:underline">      <img src="https://m.media-amazon.com/images/I/91rR9gMuOVL._SL1500_.jpg" alt="The Four Agreements: A Practical Guide to Personal Freedom" class="object-cover hover:drop-shadow-lg" />      </a>    </div>  </div>
   <div class="my-2 mx-2 p-2 flex flex-col gap-2 rounded border-[#a5a5a5] max-w-45">    <div class="border-[1px]"><a href="" class="hover:underline">      <img src="https://m.media-amazon.com/images/I/81NcBSPYv3L._SL1500_.jpg" alt="Day Trading Attention" class="object-cover hover:drop-shadow-lg" />      </a>    </div>  </div>
