@@ -1,0 +1,20 @@
+@import url("https://api.fontshare.com/v2/css?f[]=erode@500,600&f[]=satoshi@700&display=swap");
+
+/* Erode font to everything, red accent */
+:root {
+    --md-text-font: "erode", sans-serif; 
+  }
+
+  /* Satoshi font to relevant classes */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "satoshi", sans-serif;
+}
+
+/* Larger font size for text*/
+.md-typeset, .md-nav, .md-tabs__link {
+    font-size: .8rem;
+}
+
+[data-md-color-primary=black] {
+  --md-typeset-a-color: #bc2e2e !important;
+}
